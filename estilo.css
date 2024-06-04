@@ -1,0 +1,120 @@
+fieldset{
+    background-color: #56091F;
+}
+
+footer{
+    background-color:  #56091F;
+}
+/* botones para cambiar de pagina */
+.PNOSOTROS , .PCONTACTO , .PPRODUCTOS, .PINIREG{
+    background-color:  #56091F;
+    color: white;
+    text-align: center;
+
+    border: none; 
+  border-bottom: 2px solid #A88940; 
+  padding: 5px; 
+}
+.nos,.ir,.product{
+    color: white;
+    text-decoration: none;
+}
+/* bootes de instagram y whatsap*/
+.insta,.Whats{
+    background-color: #56091F;
+    border: none;
+    width: 0.83%; /* ancho del icono */
+  height: 0.83%;
+  display: inline-block;
+    vertical-align: middle;
+ /*boton del video principal*/
+}
+ video{
+    width: 100%;
+ }
+
+
+ .historia{
+    color: #56091F;;
+ }
+ button.lists { 
+    background-color: #eee; 
+     color: #56091F;
+      padding: 18px;
+       width: 100%;
+        border: none;
+         text-align: left;
+          outline: none;
+           font-size: 15px;
+            transition: 0.4s;
+             border-left:#CCA461 solid 4px;}
+             
+    button.lists.active, button.lists:hover{ 
+    background-color:#CCA461;} 
+     
+    button.lists:after {
+     content: '\02795';
+      font-size: 13px;
+       color: #777;
+        float: right;
+         margin-left: 5px;}
+    
+    button.lists.active:after {content: "\2796";}
+    
+    div.panel { 
+    padding:0 18px;
+     background-color: white;
+      max-height: 0;
+       overflow: hidden;
+        transition: 0.6s ease-in-out;
+         opacity: 0;
+          border-left:#56091F solid 3px;}
+          div.panel.show { 
+      opacity: 1;
+       max-height: 500px;}
+  .nhistoria{
+    text-align: center;color: #CCA461;
+  }    
+  label{
+    color: #CCA461;
+}
+  .nosotros{background-color: #eee;
+
+  }
+  input[type="text"],
+  input[type="number"],
+  textarea {
+      width: 50%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  textarea {
+      resize: vertical;
+  }
+  input[type="submit"] {
+      background-color: #56091F;;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  input[type="submit"]:hover {
+      background-color: #56091F;
+      text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
